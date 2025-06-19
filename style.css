@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    max-width: 550px;
+    min-width: 200px;
+    max-height: 730px;
+    min-width: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-flow:column wrap;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #6943FF;
+    height: 285px;
+}
+
+#topic {
+    font-size: 28px;
+    color: #FFFFFF;
+    letter-spacing: -3%;
+    line-height: 38px;
+    font-weight: 800;
+}
+
+#input-el {
+    margin-bottom: 20px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    width: 117px;
+    height: 83px;
+    background-color: #6943FF;
+    text-align: center;
+    font-size: 58px;
+    line-height: 25px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+}
+
+#button-el, #reset-el {
+    margin-top: 10px;
+    width: 117px;
+    height: 42px;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#themebtn-el, #rewind-el {
+    width: 30px;
+    height: 30px;
+    padding: auto;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #FFFFFF;
+    
+}
+
+.container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding: 20px 0;
+    background-color: #F4F4F4;
+}
+
+.unit {
+    background-color: #FFFFFF;
+    text-align: center;
+    width: 500px;
+    height: 108.6px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 31px;
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: #5A537B;
+}
+
+p {
+    margin-top: 0px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #353535;
+}
+
+body.dark-theme #themebtn-el {
+    background-color: #273549;
+    border: 2px solid #273549;
+}
+
+body.dark-theme .unit {
+    background-color: #273549;
+}
+
+body.dark-theme .container {
+    background-color: #1F2937;
+}
+
+body.dark-theme h3 {
+    color: #CCC1FF;
+}
+body.dark-theme p {
+    color: #FFFFFF;
+}
